@@ -41,8 +41,8 @@ Copyright (c) 2012
     *display:inline;		/* IE */
 }
 
-/* label */
-.jCountdown .group>.label{
+/* mJcountdownLabel */
+.jCountdown .group>.mJcountdownLabel{
 	position:relative;
 	left:50%;
 	padding:0px;
@@ -50,96 +50,96 @@ Copyright (c) 2012
 	width:80px;
 }
 
-.jCountdown.flip .group>.label{
+.jCountdown.flip .group>.mJcountdownLabel{
 	height:13px;
 }
-.jCountdown.flip.black .group>.label{
+.jCountdown.flip.black .group>.mJcountdownLabel{
 	background-image:url(jcountdown_flip_black.png);
 }
-.jCountdown.flip.white .group>.label{
+.jCountdown.flip.white .group>.mJcountdownLabel{
 	background-image:url(jcountdown_flip_white.png);
 }
-.jCountdown.flip .group.day>.label{
+.jCountdown.flip .group.day>.mJcountdownLabel{
 	background-position:-60px -970px;
 }
-.jCountdown.flip .group.hour>.label{
+.jCountdown.flip .group.hour>.mJcountdownLabel{
 	background-position:-60px -995px;
 }
-.jCountdown.flip .group.minute>.label{
+.jCountdown.flip .group.minute>.mJcountdownLabel{
 	background-position:-60px -1020px;
 }
-.jCountdown.flip .group.second>.label{
+.jCountdown.flip .group.second>.mJcountdownLabel{
 	background-position:-60px -1045px;
 }
 
-.jCountdown.slide .group>.label{
+.jCountdown.slide .group>.mJcountdownLabel{
 	height:15px;
 }
-.jCountdown.slide.black .group>.label{
+.jCountdown.slide.black .group>.mJcountdownLabel{
 	background-image:url(jcountdown_slide_black.png);
 }
-.jCountdown.slide.white .group>.label{
+.jCountdown.slide.white .group>.mJcountdownLabel{
 	background-image:url(jcountdown_slide_white.png);
 }
-.jCountdown.slide .group.day>.label{
+.jCountdown.slide .group.day>.mJcountdownLabel{
 	background-position:-60px -150px;
 }
-.jCountdown.slide .group.hour>.label{
+.jCountdown.slide .group.hour>.mJcountdownLabel{
 	background-position:-60px -175px;
 }
-.jCountdown.slide .group.minute>.label{
+.jCountdown.slide .group.minute>.mJcountdownLabel{
 	background-position:-60px -200px;
 }
-.jCountdown.slide .group.second>.label{
+.jCountdown.slide .group.second>.mJcountdownLabel{
 	background-position:-60px -225px;
 }
 
-.jCountdown.crystal .group>.label{
+.jCountdown.crystal .group>.mJcountdownLabel{
 	height:12px;
 }
-.jCountdown.crystal.black .group>.label{
+.jCountdown.crystal.black .group>.mJcountdownLabel{
 	background-image:url(jcountdown_crystal_black.png);
 }
-.jCountdown.crystal.white .group>.label{
+.jCountdown.crystal.white .group>.mJcountdownLabel{
 	background-image:url(jcountdown_crystal_white.png);
 }
-.jCountdown.crystal .group.day>.label{
+.jCountdown.crystal .group.day>.mJcountdownLabel{
 	background-position:-60px -153px;
 }
-.jCountdown.crystal .group.hour>.label{
+.jCountdown.crystal .group.hour>.mJcountdownLabel{
 	background-position:-60px -178px;
 }
-.jCountdown.crystal .group.minute>.label{
+.jCountdown.crystal .group.minute>.mJcountdownLabel{
 	background-position:-60px -203px;
 }
-.jCountdown.crystal .group.second>.label{
+.jCountdown.crystal .group.second>.mJcountdownLabel{
 	background-position:-60px -228px;
 }
 
-.jCountdown.metal .group>.label{
+.jCountdown.metal .group>.mJcountdownLabel{
 	height:15px;
 }
-.jCountdown.metal.black .group>.label{
+.jCountdown.metal.black .group>.mJcountdownLabel{
 	background-image:url(jcountdown_metal_black.png);
 }
-.jCountdown.metal.white .group>.label{
+.jCountdown.metal.white .group>.mJcountdownLabel{
 	background-image:url(jcountdown_metal_white.png);
 }
-.jCountdown.metal .group.day>.label{
+.jCountdown.metal .group.day>.mJcountdownLabel{
 	background-position:-60px -153px;
 }
-.jCountdown.metal .group.hour>.label{
+.jCountdown.metal .group.hour>.mJcountdownLabel{
 	background-position:-60px -178px;
 }
-.jCountdown.metal .group.minute>.label{
+.jCountdown.metal .group.minute>.mJcountdownLabel{
 	background-position:-60px -203px;
 }
-.jCountdown.metal .group.second>.label{
+.jCountdown.metal .group.second>.mJcountdownLabel{
 	background-position:-60px -228px;
 }
 
-/* container */
-.jCountdown .group>.container{
+/* mjCoundownContainer */
+.jCountdown .group>.mjCoundownContainer{
 	position:relative;
 	padding:0px;
 	margin:0px;
@@ -148,199 +148,199 @@ Copyright (c) 2012
     *display:inline;		/* IE */
 }
 
-.jCountdown.flip .group>.container{
+.jCountdown.flip .group>.mjCoundownContainer{
 	width:50px;
 	height:64px;
 	padding:6px 2px 2px 2px;
 	margin:0px 0px 0px 1px;
 	background-position:0px -960px;
 }
-.jCountdown.flip .group>.container:first-child{
+.jCountdown.flip .group>.mjCoundownContainer:first-child{
 	margin:0px;
 }
-.jCountdown.flip.black .group>.container{
+.jCountdown.flip.black .group>.mjCoundownContainer{
 	background-image:url(jcountdown_flip_black.png);
 }
-.jCountdown.flip.white .group>.container{
+.jCountdown.flip.white .group>.mjCoundownContainer{
 	background-image:url(jcountdown_flip_white.png);
 }
 
-.jCountdown.slide .group>.container{
+.jCountdown.slide .group>.mjCoundownContainer{
 	width:50px;
 	height:64px;
 	padding:1px 0px 1px 0px;
 	background-position:-111px 0px;
 }
-.jCountdown.slide .group>.container:first-child{
+.jCountdown.slide .group>.mjCoundownContainer:first-child{
 	padding:1px 0px 1px 1px;
 	background-position:-60px 0px;
 }
-.jCountdown.slide .group>.container.lastItem{
+.jCountdown.slide .group>.mjCoundownContainer.lastItem{
 	padding:1px 1px 1px 0px;
 	background-position:-161px 0px;
 }
-.jCountdown.slide.black .group>.container{
+.jCountdown.slide.black .group>.mjCoundownContainer{
 	background-image:url(jcountdown_slide_black.png);
 }
-.jCountdown.slide.white .group>.container{
+.jCountdown.slide.white .group>.mjCoundownContainer{
 	background-image:url(jcountdown_slide_white.png);
 }
 
-.jCountdown.crystal .group>.container{
+.jCountdown.crystal .group>.mjCoundownContainer{
 	width:60px;
 	height:60px;
 	padding:0px 1px 3px 1px;
 	margin:0px 0px 0px 1px;
 	background-position:-60px 0px;
 }
-.jCountdown.crystal .group>.container:first-child{
+.jCountdown.crystal .group>.mjCoundownContainer:first-child{
 	margin:0px;
 }
-.jCountdown.crystal.black .group>.container{
+.jCountdown.crystal.black .group>.mjCoundownContainer{
 	background-image:url(jcountdown_crystal_black.png);
 }
-.jCountdown.crystal.white .group>.container{
+.jCountdown.crystal.white .group>.mjCoundownContainer{
 	background-image:url(jcountdown_crystal_white.png);
 }
 
-.jCountdown.metal .group>.container{
+.jCountdown.metal .group>.mjCoundownContainer{
 	width:60px;
 	height:60px;
 	padding:3px 1px 4px 1px;
 	background-position:-124px 0px;
 }
-.jCountdown.metal .group>.container:first-child{
+.jCountdown.metal .group>.mjCoundownContainer:first-child{
 	width:60px;
 	padding:3px 1px 4px 3px;
 	background-position:-60px 0px;
 }
-.jCountdown.metal .group>.container.lastItem{
+.jCountdown.metal .group>.mjCoundownContainer.lastItem{
 	width:60px;
 	padding:3px 3px 4px 1px;
 	background-position:-186px 0px;
 }
-.jCountdown.metal.black .group>.container{
+.jCountdown.metal.black .group>.mjCoundownContainer{
 	background-image:url(jcountdown_metal_black.png);
 }
-.jCountdown.metal.white .group>.container{
+.jCountdown.metal.white .group>.mjCoundownContainer{
 	background-image:url(jcountdown_metal_white.png);
 }
 
 /* cover */
-.jCountdown .group>.container>.cover{
+.jCountdown .group>.mjCoundownContainer>.cover{
 	position:absolute;
 	z-index:1;
 	padding:0px;
 	margin:0px;
 }
 
-.jCountdown.slide .group>.container>.cover{
+.jCountdown.slide .group>.mjCoundownContainer>.cover{
 	left:0px;
 	top:1px;
 	width:50px;
 	height:64px;
 	background-position:-110px -70px;
 }
-.jCountdown.slide .group>.container:first-child>.cover{
+.jCountdown.slide .group>.mjCoundownContainer:first-child>.cover{
 	left:1px;
 	background-position:-60px -70px;
 }
-.jCountdown.slide .group>.container.lastItem>.cover{
+.jCountdown.slide .group>.mjCoundownContainer.lastItem>.cover{
 	right:1px;
 	background-position:-160px -70px;
 }
-.jCountdown.slide.black .group>.container>.cover{
+.jCountdown.slide.black .group>.mjCoundownContainer>.cover{
 	background-image:url(jcountdown_slide_black.png);
 }
-.jCountdown.slide.white .group>.container>.cover{
+.jCountdown.slide.white .group>.mjCoundownContainer>.cover{
 	background-image:url(jcountdown_slide_white.png);
 }
 
-.jCountdown.crystal .group>.container>.cover{
+.jCountdown.crystal .group>.mjCoundownContainer>.cover{
 	left:1px;
 	top:0px;
 	width:60px;
 	height:60px;
 	background-position:-60px -70px;
 }
-.jCountdown.crystal.black .group>.container>.cover{
+.jCountdown.crystal.black .group>.mjCoundownContainer>.cover{
 	background-image:url(jcountdown_crystal_black.png);
 }
-.jCountdown.crystal.white .group>.container>.cover{
+.jCountdown.crystal.white .group>.mjCoundownContainer>.cover{
 	background-image:url(jcountdown_crystal_white.png);
 }
 
-.jCountdown.metal .group>.container>.cover{
+.jCountdown.metal .group>.mjCoundownContainer>.cover{
 	top:3px;
 	left:0px;
 	width:62px;
 	height:66px;
 	background-position:-122px -70px;
 }
-.jCountdown.metal .group>.container:first-child>.cover{
+.jCountdown.metal .group>.mjCoundownContainer:first-child>.cover{
 	left:2px;
 	background-position:-60px -70px;
 }
-.jCountdown.metal .group>.container.lastItem>.cover{
+.jCountdown.metal .group>.mjCoundownContainer.lastItem>.cover{
 	right:2px;
 	background-position:-184px -70px;
 }
-.jCountdown.metal.black .group>.container>.cover{
+.jCountdown.metal.black .group>.mjCoundownContainer>.cover{
 	background-image:url(jcountdown_metal_black.png);
 }
-.jCountdown.metal.white .group>.container>.cover{
+.jCountdown.metal.white .group>.mjCoundownContainer>.cover{
 	background-image:url(jcountdown_metal_white.png);
 }
 
 /* text */
-.jCountdown .group>.container>.text{
+.jCountdown .group>.mjCoundownContainer>.text{
 	padding:0px;
 	margin:0px;
 }
 
-.jCountdown.flip .group>.container>.text{
+.jCountdown.flip .group>.mjCoundownContainer>.text{
 	width:50px;
 	height:64px;
 }
-.jCountdown.flip.black .group>.container>.text{
+.jCountdown.flip.black .group>.mjCoundownContainer>.text{
 	background-image:url(jcountdown_flip_black.png);
 }
-.jCountdown.flip.white .group>.container>.text{
+.jCountdown.flip.white .group>.mjCoundownContainer>.text{
 	background-image:url(jcountdown_flip_white.png);
 }
 
-.jCountdown.slide .group>.container>.text{
+.jCountdown.slide .group>.mjCoundownContainer>.text{
 	width:50px;
 	height:64px;
 }
-.jCountdown.slide.black .group>.container>.text{
+.jCountdown.slide.black .group>.mjCoundownContainer>.text{
 	background-image:url(jcountdown_slide_black.png);
 }
-.jCountdown.slide.white .group>.container>.text{
+.jCountdown.slide.white .group>.mjCoundownContainer>.text{
 	background-image:url(jcountdown_slide_white.png);
 }
 
-.jCountdown.crystal .group>.container>.text{
+.jCountdown.crystal .group>.mjCoundownContainer>.text{
 	width:60px;
 	height:60px;
 }
-.jCountdown.crystal.black .group>.container>.text{
+.jCountdown.crystal.black .group>.mjCoundownContainer>.text{
 	background-image:url(jcountdown_crystal_black.png);
 }
-.jCountdown.crystal.white .group>.container>.text{
+.jCountdown.crystal.white .group>.mjCoundownContainer>.text{
 	background-image:url(jcountdown_crystal_white.png);
 }
 
-.jCountdown.metal .group>.container>.text{
+.jCountdown.metal .group>.mjCoundownContainer>.text{
 	position:relative;
 	z-index:2;
 	width:60px;
 	height:60px;
 }
-.jCountdown.metal.black .group>.container>.text{
+.jCountdown.metal.black .group>.mjCoundownContainer>.text{
 	background-image:url(jcountdown_metal_black.png);
 }
-.jCountdown.metal.white .group>.container>.text{
+.jCountdown.metal.white .group>.mjCoundownContainer>.text{
 	background-image:url(jcountdown_metal_white.png);
 }
 

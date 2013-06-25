@@ -799,7 +799,7 @@ jQuery.fn.extend({
 					for(var i=0; i<dayTextNumber; i++){
 					itemClass = " item"+(i+1);
 					lastClass = i==(dayTextNumber-1) ? " lastItem" : "";
-					html += '<div class="container'+itemClass+lastClass+'">';
+					html += '<div class="mjCoundownContainer'+itemClass+lastClass+'">';
 						if(style=="slide" || style=="crystal" || style=="metal"){
 							html += '<div class="cover"></div>';
 						}
@@ -807,7 +807,7 @@ jQuery.fn.extend({
 					html += '</div>';
 					}
 					if(displayLabel){
-					html += '<div class="label"></div>';
+					html += '<div class="mJcountdownLabel"></div>';
 					}
 				html += '</div>';
 				}
@@ -818,7 +818,7 @@ jQuery.fn.extend({
 					for(var i=0; i<hourTextNumber; i++){
 					itemClass = " item"+(i+1);
 					lastClass = i==(hourTextNumber-1) ? " lastItem" : "";
-					html += '<div class="container'+itemClass+lastClass+'">';
+					html += '<div class="mjCoundownContainer'+itemClass+lastClass+'">';
 						if(style=="slide" || style=="crystal" || style=="metal"){
 							html += '<div class="cover"></div>';
 						}
@@ -826,7 +826,7 @@ jQuery.fn.extend({
 					html += '</div>';
 					}
 					if(displayLabel){
-					html += '<div class="label"></div>';
+					html += '<div class="mJcountdownLabel"></div>';
 					}
 				html += '</div>';
 				}
@@ -837,7 +837,7 @@ jQuery.fn.extend({
 				  for(var i=0; i<minuteTextNumber; i++){
 					itemClass = " item"+(i+1);
 					lastClass = i==(minuteTextNumber-1) ? " lastItem" : "";
-					html += '<div class="container'+itemClass+lastClass+'">';
+					html += '<div class="mjCoundownContainer'+itemClass+lastClass+'">';
 						if(style=="slide" || style=="crystal" || style=="metal"){
 							html += '<div class="cover"></div>';
 						}
@@ -845,7 +845,7 @@ jQuery.fn.extend({
 					html += '</div>';
 					}
 					if(displayLabel){
-					html += '<div class="label"></div>';
+					html += '<div class="mJcountdownLabel"></div>';
 					}
 				html += '</div>';
 				}
@@ -855,7 +855,7 @@ jQuery.fn.extend({
 					for(var i=0; i<secondTextNumber; i++){
 					itemClass = " item"+(i+1);
 					lastClass = i==(secondTextNumber-1) ? " lastItem" : "";
-					html += '<div class="container'+itemClass+lastClass+'">';
+					html += '<div class="mjCoundownContainer'+itemClass+lastClass+'">';
 						if(style=="slide" || style=="crystal" || style=="metal"){
 							html += '<div class="cover"></div>';
 						}
@@ -863,7 +863,7 @@ jQuery.fn.extend({
 					html += '</div>';
 					}
 					if(displayLabel){
-					html += '<div class="label"></div>';
+					html += '<div class="mJcountdownLabel"></div>';
 					}
 				html += '</div>';
 				}
@@ -878,8 +878,8 @@ jQuery.fn.extend({
 			
 			countdownObject.children(".group").css("margin-right",textGroupSpace+"px");
 			countdownObject.children(".group.lastItem").css("margin-right","0px");
-			countdownObject.children(".group").children(".container").css("margin-right",textSpace+"px");
-			countdownObject.children(".group").children(".container.lastItem").css("margin-right","0px");
+			countdownObject.children(".group").children(".mjCoundownContainer").css("margin-right",textSpace+"px");
+			countdownObject.children(".group").children(".mjCoundownContainer.lastItem").css("margin-right","0px");
 			
 			if(reflection){
 				if((jQuery.browser.msie && browserVersion<10)){
@@ -962,28 +962,28 @@ jQuery.fn.extend({
 			}
 
 			index = 1;
-			selector = ".group.day>.container.item";
+			selector = ".group.day>.mjCoundownContainer.item";
 			while(countdownObject.find(selector+index).length){
 				days.push(new itemClass(countdownObject.find(selector+index)));
 				index++;
 			};
 			
 			index = 1;
-			selector = ".group.hour>.container.item";
+			selector = ".group.hour>.mjCoundownContainer.item";
 			while(countdownObject.find(selector+index).length){
 				hours.push(new itemClass(countdownObject.find(selector+index)));
 				index++;
 			};
 			
 			index = 1;
-			selector = ".group.minute>.container.item";
+			selector = ".group.minute>.mjCoundownContainer.item";
 			while(countdownObject.find(selector+index).length){
 				minutes.push(new itemClass(countdownObject.find(selector+index)));
 				index++;
 			};
 			
 			index = 1;
-			selector = ".group.second>.container.item";
+			selector = ".group.second>.mjCoundownContainer.item";
 			while(countdownObject.find(selector+index).length){
 				seconds.push(new itemClass(countdownObject.find(selector+index)));
 				index++;
