@@ -1,0 +1,19 @@
+* Script: Locations to Map
+  
+  input: location1, location2 
+  
+  Where location1 is the location of
+  person 1, location2 is the location of person 2.
+
+  Person 1 is female, person 2 is male. Colors on the map will
+  symbolize this.
+
+  The output is a geojson file representing the locations, and a line
+  between the points. 
+
+  The distance between the points is also output in Miles.
+
+** TODO Line between points is curved
+   Use Bezier algorithm to plot a curve, i.e., output an array of points.
+   http://hannahfry.co.uk/2011/11/16/bezier-curves/
+** TODO Line between points has distance as label
