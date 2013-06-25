@@ -1,10 +1,6 @@
 :title: Lovancholy
-
-Test Title
-==========
-
-Test Subtitle
--------------
+:save_as: index.html
+:template: main_page
 
 This is some test text. I'd like for it to wrap nicely. Lorem ipsum
 dolor sit amet, consectetur adipiscing elit. Vestibulum sodales cursus

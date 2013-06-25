@@ -37,3 +37,6 @@ THEME = 'wise-words-theme'
 DEFAULT_DATE = 'fs'
 
 TYPOGRIFY = True
+DISPLAY_PAGES_ON_MENU = False
+DIRECT_TEMPLATES = (('index', 'archives',))
+STATIC_PATHS = ['images']
