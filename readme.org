@@ -17,3 +17,18 @@
    Use Bezier algorithm to plot a curve, i.e., output an array of points.
    http://hannahfry.co.uk/2011/11/16/bezier-curves/
 ** TODO Line between points has distance as label
+
+* Web pages
+** Categories
+   Should just create as needed.
+*** Videos
+    Should eval how many things actually go in here. 
+*** Shares
+    Pages and things we share. Like the Go style thing. What can
+    we call this?
+*** Music
+*** Poems
+*** Archives
+*** Japan
+** Authors
+   Might want to support Lumin if she wants to contribute.
