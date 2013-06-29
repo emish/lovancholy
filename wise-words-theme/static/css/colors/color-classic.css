@@ -65,6 +65,13 @@ cite {
   line-height: 30px;
 }
 
+/* To support fancy blockquotes, b/c rst uses attribution class */
+.attribution {
+    font-size: 85%;
+    display: block;
+    line-height: 30px;
+    color: #999999;
+}
 
 /***** 2. Layout *****/
 

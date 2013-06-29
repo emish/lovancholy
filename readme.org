@@ -19,6 +19,7 @@
 ** TODO Line between points has distance as label
 
 * Web pages
+** Articles with hyperlinks show page preview like in Facebook.
 ** Categories
    Should just create as needed.
 *** Videos
