@@ -86,6 +86,10 @@ hr {
 	color:#9b7188;
 }
 
+.ww-nav > .active > a {
+    color: #9b7188;
+}
+
 
 /***** 3.b Tinynav.js *****/
 

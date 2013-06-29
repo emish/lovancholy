@@ -23,7 +23,7 @@ DEFAULT_DATE_FORMAT = '%a %B %d, %Y'
 
 TYPOGRIFY = True
 DISPLAY_PAGES_ON_MENU = False
-DIRECT_TEMPLATES = (('index', 'archives',))
+PAGINATED_DIRECT_TEMPLATES = (('index', 'archives'))
 STATIC_PATHS = ['images']
 
 
