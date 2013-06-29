@@ -8,6 +8,7 @@ SITEURL = ''
 TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'en'
 DEFAULT_PAGINATION = 10
+DEFAULT_ORPHANS = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
