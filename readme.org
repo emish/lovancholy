@@ -23,12 +23,12 @@
    Should just create as needed.
 *** Videos
     Should eval how many things actually go in here. 
-*** Shares
+*** TODO Shares
     Pages and things we share. Like the Go style thing. What can
     we call this?
-*** Music
-*** Poems
+*** TODO Music
+*** TODO Poems
 *** Archives
-*** Japan
+*** TODO Japan
 ** Authors
    Might want to support Lumin if she wants to contribute.

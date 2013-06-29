@@ -57,6 +57,14 @@ hr {
 	border-bottom-color: #b2b8c1;
 }
 
+/* Personal addition, achieves .lead effect. */
+cite {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 30px;
+}
+
 
 /***** 2. Layout *****/
 

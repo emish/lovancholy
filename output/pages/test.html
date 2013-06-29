@@ -6,7 +6,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Lovancholy</title>
+    <title>Test <span class="caps">RST</span>&nbsp;page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="emish">
@@ -66,72 +66,26 @@
       </div>
       <hr/>
 
-      
-<div class="row main-content">
-  <div class="offset2 span8 zone-content">
+      <div class="row main-content">
+<div class="offset2 span8 zone-content">
+        <h1 class="entry-title">Test <span class="caps">RST</span>&nbsp;page</h1>
 
-    <!-- content -->
-    <p>This is some test text. I&#8217;d like for it to wrap nicely. Lorem ipsum
-dolor sit amet, consectetur adipiscing elit. Vestibulum sodales cursus
-fringilla. Cras consequat enim turpis, in cursus dui. Phasellus
-dapibus mauris et velit porta posuere. In at leo mauris, a euismod
-erat. Nulla eu convallis nibh. Cras eros dui, lobortis eget venenatis
-nec, egestas consequat&nbsp;arcu.</p>
-<p>An artist&#8217;s monument for the one he&nbsp;loves.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field"><th class="field-name" colspan="2">Current Distance:</th></tr>
-<tr class="field"><td>&nbsp;</td><td class="field-body">6916 Miles</td>
-</tr>
-</tbody>
-</table>
+        
+        <p>This is trying <em>emphasis</em>.
+This is <strong>strong emphasis</strong>.
+This is <cite>interpreted text</cite>.
+This is <tt class="docutils literal">inline literal</tt>.</p>
+<p><cite>This is a whole paragraph of interpreted text, which is really the .lead
+bootstrap class being used on the &lt;site&gt; html elements. If we can write lead
+paragraphs like this, that would be convenient.</cite></p>
+<pre class="literal-block">
+A literal block appears here.
+</pre>
+<p>A test image appears&nbsp;here:</p>
+<img alt="/static/images/map.png" src="/static/images/map.png" />
 
-
-    <!-- map -->
-    <img src="/static/images/map.png" />
-
-  </div>
 </div>
-
-<!-- Countdown -->
-<div class="row">
-  <div class="span6 offset3">
-
-    <!-- countdown -->
-    <h4>Until next time...</h4>
-    <div id="DIV_TO_PLACE_COUNTDOWN"></div>
-    <script>
-    jQuery(document).ready(function(){
-      jQuery("#DIV_TO_PLACE_COUNTDOWN").jCountdown({
-	timeText:"2013/11/28 00:00:00",
-	timeZone:-5,
-	style:"metal",
-	color:"black",
-	width:0,
-	textGroupSpace:15,
-	textSpace:0,
-	reflection:false,
-	reflectionOpacity:10,
-	reflectionBlur:0,
-	dayTextNumber:3,
-	displayDay:true,
-	displayHour:true,
-	displayMinute:true,
-	displaySecond:false,
-	displayLabel:true,
-	onFinish:function(){
-	  alert("finish");
-	}
-      });
-    });
-    jQuery("#DIV_TO_PLACE_COUNTDOWN").jCountdown("start");
-    </script>
-
-  </div>
 </div>
-
 
             
       <hr/>
