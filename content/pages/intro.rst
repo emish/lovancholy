@@ -2,13 +2,20 @@
 :save_as: index.html
 :template: main_page
 
-This is some test text. I'd like for it to wrap nicely. Lorem ipsum
-dolor sit amet, consectetur adipiscing elit. Vestibulum sodales cursus
-fringilla. Cras consequat enim turpis, in cursus dui. Phasellus
-dapibus mauris et velit porta posuere. In at leo mauris, a euismod
-erat. Nulla eu convallis nibh. Cras eros dui, lobortis eget venenatis
-nec, egestas consequat arcu.
+`An artist presents a painting, a writer a poem; what art can a programmer
+present, but a website?`
 
-An artist's monument for the one he loves. 
+As a sculpture of my heart and craft, I present to you, Lovancholy. The digital 
+manifestation of the inherent melancholy of two amateur lovers at a great 
+distance, who must push away their uncertainty of the future in order to
+start their own lives, yet at the same time, hold on to each other as 
+tightly as they can. 
+
+.. The inherent melancholy of two people at great distance who are still very
+.. much in love and wish to puncture this distance with teleportation.
+
+.. The melancholy of two begginers in love pushed astride by a great distance
+.. who must push away their uncertainty of the future in order to start their own
+.. lives yet at the same time hold on to each other as tightly as they can.
 
 :Current Distance: 6916 Miles
