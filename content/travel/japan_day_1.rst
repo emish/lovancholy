@@ -146,3 +146,37 @@ Thirty minutes later, he returned. And I lost.
 .. image:: /static/images/IMG_1520.jpg
 
 A few moves before I resign.
+
+Dinner
+======
+
+Later that night, David and I walk outside to find some food at the nearby 
+shops. In a style akin to Bahrain's street-side vendors, we find a few places
+that tickle our fancy. The first is a fried chicken shop, where we learn they 
+sell fried chicken after a few minutes of pictionary with the vendors. That was
+fun. 
+
+.. image:: /static/images/IMG_1523.jpg
+
+The fried chicken stand.
+
+.. image:: /static/images/IMG_1524.jpg
+
+The chicken is served in a bag and eaten with a thick toothpick-stick. 
+
+The chicken was delicious. Following this, we try some octopus balls, not 
+what you think, at another stand. They put pieces of octopus inside of these
+egg-corn-ball-things. It looks rather good, but trying it, it was rather soggier
+than we imagined it would be. I was picturing a firm fried cheeseball sort of 
+experience. 
+
+.. image:: /static/images/IMG_1525.jpg
+
+The octopus balls being prepared.
+
+The one thing these vendors shared, and every store or restaurant you go to will
+show the same quality, is that they are extermely grateful for your patronage. 
+On your way out, or after purchasing at a stand, you are showered with gratitude
+and thank you's, "Arigato Gosaimashta!" This is quite contrasting with American
+attitude, where anyone who serves you food seems to inherently hate you. I like
+Japan's culture a thousand-times over America's so far.
