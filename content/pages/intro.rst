@@ -5,11 +5,13 @@
 `An artist presents a painting, a writer a poem; what art can a programmer
 present, but a website?`
 
-As a sculpture of my heart and craft, I present to you, Lovancholy. The digital 
+The digital 
 manifestation of the inherent melancholy of two amateur lovers at a great 
-distance, who must push away their uncertainty of the future in order to
-start their own lives, yet at the same time, hold on to each other as 
-tightly as they can. 
+distance.
+
+.. , who must push away their uncertainty of the future in order to
+.. start their own lives, yet at the same time, hold on to each other as 
+.. tightly as they can. 
 
 .. The inherent melancholy of two people at great distance who are still very
 .. much in love and wish to puncture this distance with teleportation.
