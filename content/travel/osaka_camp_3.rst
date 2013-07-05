@@ -1,4 +1,4 @@
-:title: Kansaii Ki In
+:title: Kansaii Kiin
 :date: 03-07-2013
 :tags: japan
 
@@ -65,7 +65,7 @@ farmers are forced to buy new ones each year, making plants resistant
 to a certain pesticide thus ensuring you neighbors using it will kill
 your competitors' seeds. This is too dark to think about.
 
-Back at the Ki In
+Back at the Kiin
 =================
 
 I speak with Stephan, an aged German doctor who works with
@@ -144,4 +144,4 @@ at the camp, but they won't be going to Kyoto tomorrow.
 
 .. image:: http://gokifu.com/g/1et4.gif
 
-My game against Kim 3P.
+My game against Kim 3P. Full game here http://gokifu.com/s/1et4.
