@@ -30,3 +30,9 @@ This is apparantly
 A test image appears here: 
 
 .. image:: /static/images/map.png
+
+A bullet list
+=============
+
+- This is item 1
+- This is item 2
