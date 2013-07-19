@@ -1,6 +1,6 @@
 :title: Go Camp Day 7
 :date: 09-07-2013
-:tags: japan
+:tags: japan, go camp
 
 League Game
 ===========

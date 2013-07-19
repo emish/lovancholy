@@ -2,12 +2,13 @@
 :save_as: index.html
 :template: main_page
 
-`An artist presents a painting, a writer a poem; what art can a programmer
-present, but a website?`
+..
+   `An artist presents a painting, a writer a poem; what art can a programmer
+   present, but a website?`
 
-The digital 
-manifestation of the inherent melancholy of two amateur lovers at a great 
-distance.
+   The digital 
+   manifestation of the inherent melancholy of two amateur lovers at a great 
+   distance.
 
 .. , who must push away their uncertainty of the future in order to
 .. start their own lives, yet at the same time, hold on to each other as 
@@ -20,4 +21,6 @@ distance.
 .. who must push away their uncertainty of the future in order to start their own
 .. lives yet at the same time hold on to each other as tightly as they can.
 
-:Current Distance: 6916 Miles
+.. :Current Distance: 6916 Miles
+
+.. `For things I want to share with you...`
